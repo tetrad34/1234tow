@@ -1,0 +1,230 @@
+*,html {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    box-shadow: 5px 5px 20px black;
+    position: relative;
+    z-index: 1;
+}
+.list li {
+    display: inline;
+    color: #fff;
+}
+.list {
+    float: right;
+    padding-right: 400px;
+    padding-top: 3px;
+}
+#header a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 400px;    
+}
+.left {
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+
+}
+.page1 {
+    font-family: 'Roboto', sans-serif;
+}
+.Glav {
+    background-image: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+}
+.left h1 {
+    color: rgb(111, 116, 116);
+    font-size: 40pt;
+    margin-bottom: 20px;
+}
+.left h2 {
+    color: rgb(111, 116, 116);
+    margin-bottom: 20px;
+}
+.knopka {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: left;
+    background-image: linear-gradient(90deg, rgb(79, 241, 147), rgb(136, 191, 253));
+    border: 0px;
+    text-decoration: none;
+    color: #fff;
+}
+.page2 {
+    width: 100%;
+    height: 1300px;
+    background-color: black;    
+}
+.icons {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#header2{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+.content21 {
+    width: 1000px;
+}
+.content21 p {
+    width: fit-content;
+    color: rgb(18, 173, 173);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.game {
+    width: 200px;
+}
+.icons img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    /* vertical-align: top; */
+}
+.glav {
+    width: 400px;
+    height: fit-content;
+    box-shadow: 20px 0px 25px rgb(41, 31, 31);
+    background-color: black;
+    margin: 0 auto;
+}
+.game {
+    width: 100%;
+    height: 150px;
+}
+
+
+.games img {
+    width: 50%;
+    height: 100%;
+}
+
+.games h3, .games p {
+    float: left;
+    margin: 10px;
+}
+.games p {
+    color: #fff;
+    font-size: 10pt;
+}
+
+.csgo , .apex {
+    float: right;
+} 
+
+.dota2 {
+    float: left;
+}
+
+.zag p {
+    color: aqua;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.games h3 {
+    color: aquamarine;
+    color: aquamarine;
+    border-bottom: 2px aquamarine solid;
+    width: 100px;
+}
+/* .games hr {
+    width: 100px;
+    color: aquamarine;
+} */
+.games {
+    width: 400px;
+}
+p {
+    width: 150px;
+}
+.coreva {
+    margin: 0 auto;
+    width: 500px;
+}
+.coreva h3 {
+    color: aqua;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+.coreva p {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    font-size: 10pt;
+}
+.cerver {
+    margin: 0 auto;
+    width: 500px;
+}
+.cerver h3 {
+    text-align: center;
+    color: aqua;
+    padding: 10px;
+}
+.osnova {
+    color: black;
+    width: 400px;
+    height: 180px;
+    box-shadow: 20px 0px 25px rgb(41, 31, 31);
+    margin: 0 auto;
+}
+.go {
+    margin: 0 auto;
+}
+.go h4 {
+    color: aqua;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 1px white solid;
+}
+.knopka2 {
+    background-color: aqua;
+    margin: 0 auto;
+    width: 325px;
+    height: 60px;
+    margin-top: 20px;
+}
+.knopka2 h3 {
+    color: #fff;
+    padding: 20px;
+    width: fit-content;
+}
+.knopka2 button {
+    float: right;
+    margin: 18px;
+    padding: 4px;
+    background-color: black;
+    border: 0px;
+}
+.knopka2 button p {
+    color: #fff;
+    width: fit-content;
+    padding: 5px 15px;
+}

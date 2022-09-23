@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forma.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <button><a href="index.html">Назад</a></button>
+    <div class="content">
+        <h3>Заявка на вступление</h3>
+        <div class="nic">
+            <fieldset>
+                <legend>Ваш логин и пароль</legend>
+                <input class="input1" placeholder="Придумай логин" type="text">
+                <input class="input1" placeholder="Придумай пароль" type="password">
+            </fieldset>
+            <p class="form-text">Выбери пол</p>
+            <div style="width: 550px; margin: 0 auto;">
+            <input id="male" type="radio" name="gender"> 
+            <label for="male" class="radio-text">М</label>
+            <input id="female" type="radio" name="gender"> 
+            <label for="female" class="radio-text">Ж</label>
+            <br>
+            <input id="age" class="text3" type="checkbox">
+            <label for="age" class="text3">Мне есть 18 </label>
+            <br>
+            <h4>Ваша дисциплина</h4>
+            <select>
+                <option>CS:GO</option>
+                <option>Apex</option>
+                <option>Dota 2</option>
+            </select>
+            <textarea placeholder="Дополнительная информация"></textarea>
+            <h3 class="conec">Отправить заявку</h3>
+        </div>
+    </div>
+</body>
+</html>
